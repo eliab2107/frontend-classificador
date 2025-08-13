@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const loader = document.getElementById('loader');
 
     // IMPORTANTE: Substitua pela URL da sua API no Hugging Face Spaces
-    const API_URL = 'https://SEU-USUARIO-SEU-SPACE.hf.space/predict';
+    const API_URL = 'https://baile2107-api-classificador.hf.space/predict';
 
     classifyBtn.addEventListener('click', async () => {
         const comment = commentInput.value.trim();
