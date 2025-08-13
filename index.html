@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Comentários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Analisador de Toxicidade de Comentários</h1>
+        <p>Escreva um comentário em português e veja a classificação do modelo.</p>
+        <textarea id="comment-input" rows="5" placeholder="Digite seu comentário aqui..."></textarea>
+        <button id="classify-btn">Classificar</button>
+        <div id="loader" class="loader hidden"></div>
+        <div id="result-container" class="hidden">
+            <h2>Resultado:</h2>
+            <p id="result-text"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
